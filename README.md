@@ -12,14 +12,15 @@ package com.Method.www;
  * @Description: 参数传递 - 方法中的参数为形式参数，调用方法时的参数为实际参数
  * @Version: 1.0版本
  */
-public class Demo_CanShu {
-    public static void main(String[] args) {
-        int x = 5;
-        int y = 10; //调用方法时得参数为实际参数
+ 
+    public class Demo_CanShu {
+        public static void main(String[] args) {
+            int x = 5;
+            int y = 10; //调用方法时得参数为实际参数
 
-        f1(x, y);
-        System.out.println(x);
-        System.out.println(y);
+            f1(x, y);
+            System.out.println(x);
+            System.out.println(y);
     }
 
     //方法中指定得参数为形式参数
