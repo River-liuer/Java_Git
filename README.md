@@ -12,7 +12,7 @@ package com.Method.www;
  * @Description: 参数传递 - 方法中的参数为形式参数，调用方法时的参数为实际参数
  * @Version: 1.0版本
  */
- 
+    //主方法
     public class Demo_CanShu {
         public static void main(String[] args) {
             int x = 5;
